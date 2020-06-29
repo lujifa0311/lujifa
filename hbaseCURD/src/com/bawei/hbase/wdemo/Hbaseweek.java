@@ -100,10 +100,7 @@ public class Hbaseweek {
 
     //添加新的测试
 	public void getTest(){
-        Get get = new Get(Bytes.toBytes("200"));
-		Get setMaxVersions = get.setMaxVersions();
-		System.out.println(setMaxVersions);
-		Result result = table.get(get);    
+           
 	}
 	
 }
