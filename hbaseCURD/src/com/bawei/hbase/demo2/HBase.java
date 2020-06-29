@@ -212,6 +212,13 @@ public class HBase {
 			System.out.println(Bytes.toString(name));
 		}
 	}
+
+ 
+	//添加测试
+	@Test
+	public void Test(){
+
+	}
 	
 
 }

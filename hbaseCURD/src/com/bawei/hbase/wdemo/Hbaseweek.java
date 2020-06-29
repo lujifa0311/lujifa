@@ -100,7 +100,10 @@ public class Hbaseweek {
 
     //添加新的测试
 	public void getTest(){
-           
+		   
+		System.out.println("name:"+Bytes.toString(name));
+		System.out.println("002"+Bytes.toString(s));
+		System.out.println("001"+Bytes.toString(n));
 	}
 	
 }

@@ -201,5 +201,9 @@ public class HBaseCURD {
 			}
 			
 		}
+
+		public void test(){
+			System.out.println("hello word");
+		}
 		
 }
